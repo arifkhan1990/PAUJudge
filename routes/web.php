@@ -14,5 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('pages.pau_home.home_page');
 });
+
+Route::resource('signup_signin', 'HomeController');
