@@ -18,3 +18,9 @@ Route::get('/', function () {
 });
 
 Route::resource('signup_signin', 'HomeController');
+
+Route::get('problems', 'ProblemController@index');
+Route::get('/problem_dashboard', 'ProblemController@problemDashboard');
+Route::get('/problem_details', 'ProblemController@problemDetail');
+Route::get('/problem_rank_board', 'ProblemController@problemRankBoard');
+Route::get('/problem_submission_board', 'ProblemController@problemSubmissionBoard');

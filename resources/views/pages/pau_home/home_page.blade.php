@@ -2,8 +2,6 @@
 @extends('master_page')
 
 @section('page_css')
-<link rel="stylesheet" href="css/main_page.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 @stop
 @section('main_content')
 
