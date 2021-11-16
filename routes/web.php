@@ -36,3 +36,5 @@ Route::get('/contest_submission_borad', 'ContestController@submissionBoard');
 Route::get('/contest_submission_code', 'ContestController@submissionCode');
 Route::get('/contest_rank_board', 'ContestController@rankBoard');
 Route::get('/clearification', 'ContestController@problemClearification');
+
+Route::get('coder_rank', 'CoderRankController@index');

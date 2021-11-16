@@ -153,17 +153,17 @@
                                 <td class="id">1</td>
                                 <td class="large" id="user1">
                                     <div class="tooltip">
-                                    <a href="/judge/en/profile/76" target="_blank" class="large1">BrunoZanoelo</a>
-                                    <div class="tooltiptext">
-                                        <img src="../images/user1.jpg" alt="" style="width: 230px;height: 150px;">
-                                        <div class="short-info"><strong>Bruno Zanoelo</strong>,
-                                            commonly known as <a href="#">BrunoZanoelo</a>,
-                                            is an Bangladeshi programmer.
-                                            <p>Total Points: 2234, Total Win: 43</p>
-                                            <p>Total Accepted Solution: 2532</p>
+                                        <a href="/judge/en/profile/76" target="_blank" class="large1">BrunoZanoelo</a>
+                                        <div class="tooltiptext">
+                                            <img src="../images/user1.jpg" alt="" style="width: 230px;height: 150px;">
+                                            <div class="short-info"><strong>Bruno Zanoelo</strong>,
+                                                commonly known as <a href="#">BrunoZanoelo</a>,
+                                                is an Bangladeshi programmer.
+                                                <p>Total Points: 2234, Total Win: 43</p>
+                                                <p>Total Accepted Solution: 2532</p>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
                                 </td>
                                 <td class="small">C++</td>
                                 <td class="small">10.0</td>

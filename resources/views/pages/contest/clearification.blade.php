@@ -57,8 +57,8 @@
                         <div class="question">
                         <div class="question-left">
                         <div class="basic_info_question_user">
-                            <span id="q_by_user"><a href="#">Rutba88</a></span>
-                            <span id="problem_id"><a href="#">Array Roted</a></span>
+                            <span id="q_by_user"><a href="/judge/en/profile/76">Rutba88</a></span>
+                            <span id="problem_id"><a href="{{ url('/contest_problem_detail') }}">A. Array Roted</a></span>
                         </div>
                            <div class="question_details">
                             <span id="question_tag">Q.</span>
@@ -75,7 +75,7 @@
                         <div class="anwser">
                         <div class="basic_info_anwser">
                             <span id="q_by_user"><a href="#">Author</a></span>
-                            <span id="problem_id"><a href="#">Array Roted</a></span>
+                            <span id="problem_id"><a href="{{ url('/contest_problem_detail') }}">A. Array Roted</a></span>
                         </div>
                            <div class="anwser_details">
                             <span id="question_tag">A.</span>
@@ -88,8 +88,8 @@
                      <div class="question">
                         <div class="question-left">
                         <div class="basic_info_question_user">
-                            <span id="q_by_user"><a href="#">Faysal143</a></span>
-                            <span id="problem_id"><a href="#">Lover Life</a></span>
+                            <span id="q_by_user"><a href="/judge/en/profile/76">Faysal143</a></span>
+                            <span id="problem_id"><a href="{{ url('/contest_problem_detail') }}">D. Lover Life</a></span>
                         </div>
                            <div class="question_details">
                             <span id="question_tag">Q.</span>
@@ -105,8 +105,8 @@
                         <div class="question">
                         <div class="question-left">
                         <div class="basic_info_question_user">
-                            <span id="q_by_user"><a href="#">HamidHossain</a></span>
-                            <span id="problem_id"><a href="#">Bubli Sort</a></span>
+                            <span id="q_by_user"><a href="/judge/en/profile/76">HamidHossain</a></span>
+                            <span id="problem_id"><a href="{{ url('/contest_problem_detail') }}">E. Bubli Sort</a></span>
                         </div>
                            <div class="question_details">
                             <span id="question_tag">Q.</span>
@@ -122,8 +122,10 @@
 
                         <div class="anwser">
                         <div class="basic_info_anwser">
-                            <span id="q_by_user"><a href="#">Author</a></span>
-                            <span id="problem_id"><a href="#">Array Roted</a></span>
+                            <span id="q_by_user">
+                                <a href="#">Author</a>
+                            </span>
+                            <span id="problem_id"><a href="{{ url('/contest_problem_detail') }}">A. Array Roted</a></span>
                         </div>
                            <div class="anwser_details">
                             <span id="question_tag">A.</span>

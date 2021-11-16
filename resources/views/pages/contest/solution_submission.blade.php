@@ -49,7 +49,7 @@
                                 <tr class="impar">
                                     <td class="id">123244334</td>
                                     <td class="center">Arif Khan</td>
-                                    <td id="problem_short_name"><a href="">A. Array Roted</a></td>
+                                    <td id="problem_short_name"><a href="{{ url('/contest_problem_detail') }}">A. Array Roted</a></td>
                                     <td class="id">All test case are passed.</td>
                                     <td class="small">C++</td>
                                     <td class="small">10.0</td>
@@ -61,7 +61,7 @@
                                 <tr class="impar">
                                     <td class="id">19342434</td>
                                     <td class="center">I_See_You</td>
-                                    <td id="problem_short_name"><a href="">B. Bubli Sort</a></td>
+                                    <td id="problem_short_name"><a href="{{ url('/contest_problem_detail') }}">B. Bubli Sort</a></td>
                                     <td class="id">Faild the test case 32.</td>
                                     <td class="small">C++</td>
                                     <td class="small">20.0</td>
@@ -73,7 +73,7 @@
                                 <tr class="impar">
                                     <td class="id">457657234</td>
                                     <td class="center">Arif Khan</td>
-                                    <td id="problem_short_name"><a href="">A. Array Roted</a></td>
+                                    <td id="problem_short_name"><a href="{{ url('/contest_problem_detail') }}">A. Array Roted</a></td>
                                     <td class="id">All test case are passed.</td>
                                     <td class="small">C++</td>
                                     <td class="small">10.0</td>
@@ -85,7 +85,7 @@
                                 <tr class="impar">
                                     <td class="id">23454334</td>
                                     <td class="center">Rasel77</td>
-                                    <td id="problem_short_name"><a href="">C. Graphical Loss</a></td>
+                                    <td id="problem_short_name"><a href="{{ url('/contest_problem_detail') }}">C. Graphical Loss</a></td>
                                     <td class="id">On the way</td>
                                     <td class="small">C++</td>
                                     <td class="small">10.0</td>
@@ -97,7 +97,7 @@
                                 <tr class="impar">
                                     <td class="id">5734534</td>
                                     <td class="center">Rutba Rosie</td>
-                                     <td id="problem_short_name"><a href="">E. Lover Life</a></td>
+                                     <td id="problem_short_name"><a href="{{ url('/contest_problem_detail') }}">E. Lover Life</a></td>
                                     <td class="id">Pass test case 23 ....</td>
                                     <td class="small">C++</td>
                                     <td class="small">10.0</td>
