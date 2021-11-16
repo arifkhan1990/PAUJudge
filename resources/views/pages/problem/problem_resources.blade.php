@@ -1,96 +1,13 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>PAU OJ</title>
-    <link rel="stylesheet" href="../css/nav.css">
-        <link rel="stylesheet" href="../css/main_page.css">
-    <link rel="stylesheet" href="../css/single_page.css">
-    <!--<link rel="stylesheet" href="../css/problem_rankboard.css">-->
-    <link rel="stylesheet" href="../css/resources.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+@extends('master_page')
 
-</head>
-<body>
-<nav class="pauoj-navbar sticky">
-    <div class="navId">
-        <ul>
-            <div class="left-nav">
-                <a href="../main.html"><img src="..\images\logo.gif" alt="" id="logo"><span id="title">PAU OJ</span></a>
-                <li><a href="../problem/problems.html" class="active">Problem</a></li>
-                <li><a href="../contest/contest.html">Contest</a></li>
-                <li><a href="../rank.html">Rank</a></li>
-                <li class="dropdown"><a href="../submission.html">Submission <i class="fa fa-caret-down"></i></a>
-                <div class="dropdown-content">
-                    <a href="" value="all" style="font-size: 16px;color: #154360;">All Submission</a>
-                    <a href="" value="my_submission" style="font-size: 16px;color: #154360;">My Submission</a>
-                </div>
-                </li>
-                <li><a href="">Learn</a></li>
-                <li><a href="">Blog</a></li>
-            </div>
-            <div class="right-nav">
-                <li class="li-pos"><a href="../navigation.html"><i class="fa fa-user-plus fa-fw"></i>Sign up</a></li>
-                <li class="li-pos"><a href="../navigation.html"><i class="fa fa-sign-in fa-fw"></i>Login</a></li>
-                <!--&lt;!&ndash;<li><a href=""><i class="fa fa-user fa-fw"></i>User</a></li>&ndash;&gt;-->
-                <!--&lt;!&ndash;<li><a href=""><i class="fa fa-comment-alt fa-fw"></i>Messages</a></li>&ndash;&gt;-->
-                <!--&lt;!&ndash;<li><a href=""><i class="fa fa-bell fa-fw"></i>Notafications</a></li>&ndash;&gt;-->
-            </div>
-        </ul>
-    </div>
-</nav>
+@sectionMissing('page_css')
+<link rel="stylesheet" href="../css/main_page.css">
+<link rel="stylesheet" href="../css/single_page.css">
+<link rel="stylesheet" href="../css/resources.css">
+@endif
 
-<div class="problem-info">
-    <div class="problem-content">
-        <div class="left-content">
-            <div class="problem-details">
-                <h1 class="problem-title">Array Rotation</h1>
-                <span class="author">Author : GeeksforGeek</span><br \>
-                <span class="score">Score : 15</span><br \>
-                <span class="difficulty">Difficulty : <span style="color: forestgreen;opacity: 2;">Easy</span></span>
-            </div>
-        </div>
-        <div class="right-content">
-            <div class="extra-details">
-                <div class="resourses"><a href="#">Array Rotation</a></div>
-                <div class="rated">
-
-                    <fieldset class="rating">
-                        <input type="radio" id="star5" name="rating" value="5" /><label class = "full" for="star5" title="Awesome - 5 stars"></label>
-                        <input type="radio" id="star4half" name="rating" value="4 and a half" /><label class="half" for="star4half" title="Pretty good - 4.5 stars"></label>
-                        <input type="radio" id="star4" name="rating" value="4" /><label class = "full" for="star4" title="Pretty good - 4 stars"></label>
-                        <input type="radio" id="star3half" name="rating" value="3 and a half" /><label class="half" for="star3half" title="Meh - 3.5 stars"></label>
-                        <input type="radio" id="star3" name="rating" value="3" /><label class = "full" for="star3" title="Meh - 3 stars"></label>
-                        <input type="radio" id="star2half" name="rating" value="2 and a half" /><label class="half" for="star2half" title="Kinda bad - 2.5 stars"></label>
-                        <input type="radio" id="star2" name="rating" value="2" /><label class = "full" for="star2" title="Kinda bad - 2 stars"></label>
-                        <input type="radio" id="star1half" name="rating" value="1 and a half" /><label class="half" for="star1half" title="Meh - 1.5 stars"></label>
-                        <input type="radio" id="star1" name="rating" value="1" /><label class = "full" for="star1" title="Sucks big time - 1 star"></label>
-                        <input type="radio" id="starhalf" name="rating" value="half" /><label class="half" for="starhalf" title="Sucks big time - 0.5 stars"></label>
-                    </fieldset>
-                    <br>
-                </div><br>
-                <div class="download">
-                    <a href="../pdf_file/Arif_Khan_CV.pdf" download><i class="fa fa-file-pdf">PDF</i></a>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="details-content">
-    <div class="editorial-details-page">
-        <div class="problem-navber">
-            <li class="navbar-content"><a href="../problem/problem_description.html">Description</a></li>
-            <li class="navbar-content"><a href="../problem/problem_rankboard.html">RankBoard</a></li>
-            <li class="navbar-content"><a href="../problem/solution_submission_page.html">Submission</a></li>
-            <li class="navbar-content"><a href="../problem/problem_discuss.html">Forum</a></li>
-            <li class="navbar-content"><a href="../problem/problem_editorial.html">Editorial <i class="fa fa-lock"></i></a></li>
-            <li class="navbar-content"><a href="../problem/problem_related_resourcs.html" class='active-page'>Resources</a></li>
-        </div>
-
+@section('main_content')
+    @include('pages.problem.problem_page_topnav')
         <div class="editorial-page">
             <div class="editorial-left-part">
                 <div class="editorial-table-body">
@@ -354,66 +271,15 @@
             </div>
     </div>
 </div>
+@endsection
 
-<!-- </div> -->
+@section('page_js')
+    <script src="https://canvasjs.com/assets/script/canvasjs.min.js"> </script>
+    <script src="https://canvasjs.com/assets/script/jquery-1.11.1.min.js"></script>
+    <script src="https://canvasjs.com/assets/script/jquery.canvasjs.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="../js/like-dislike.js"></script>
+    <script src="../js/demo.js"></script>
+@endsection
 
-<footer class="pauoj-footer">
-    <h1>PRIMEASIA UNIVERSITY ONLINE JUDGE</h1>
-    <div class="main-footer">
-        <div class="footer-content left-footer">
-            <h3>Services</h3>
-            <a href="">Problem</a>
-            <a href="">Rank</a>
-            <a href="">Contest</a>
-            <a href="">Blog</a>
-            <a href="">Learn</a>
-        </div>
-        <div class="footer-content middle-footer">
-            <h3>Stay With Us</h3>
-            <div class="footer-row">
-                <div class="social-icon">
-                    <a href="https://github.com/arifkhan1990" class="github" target="_blank"><i class="fa fa-github fa-fw"></i></a>
-                </div>
-                <div class="social-icon">
-                    <a href="" class="facebook"><i class="fa fa-facebook fa-fw"></i></a>
-                </div>
-                <div class="social-icon">
-                    <a href="" class="linkedin"><i class="fa fa-linkedin fa-fw"></i></a>
-                </div>
-                <div class="social-icon">
-                    <a href="" class="youtube"><i class="fa fa-youtube fa-fw"></i></a>
-                </div>
-                <div class="social-icon">
-                    <a href="" class="twitter"><i class="fa fa-twitter fa-fw"></i></a>
-                </div>
-            </div>
-            <div class="footer-row">
-                <div class="social-icon">
-                    <a href="" class="pinterest"><i class="fa fa-pinterest fa-fw"></i></a>
-                </div>
-                <div class="social-icon">
-                    <a href="https://plus.google.com/u/0/+ArifKhanArifKhan77morichika" target="_blank" class="google-plus"><i class="fa fa-google-plus fa-fw"></i></a>
-                </div>
-                <div class="social-icon">
-                    <a href="" class="instagram"><i class="fa fa-instagram fa-fw"></i></a>
-                </div>
-            </div>
-        </div>
-        <div class="footer-content right-footer">
-            <h3>About Us</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique.</p>
-        </div>
-    </div>
-</footer>
-<div class="sp-footer">
-    <p> this site develop by Arif khan &copy; 2018. All rights reserved.</p>
-</div>
 
-<script src="https://canvasjs.com/assets/script/canvasjs.min.js"> </script>
-<script src="https://canvasjs.com/assets/script/jquery-1.11.1.min.js"></script>
-<script src="https://canvasjs.com/assets/script/jquery.canvasjs.min.js"></script>
-<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
-<script src="../js/like-dislike.js"></script>
-<script src="../js/demo.js"></script>
-</body>
-</html>

@@ -42,6 +42,6 @@
             <li class="navbar-content"><a href="{{ url('/problem_rank_board') }}">RankBoard</a></li>
             <li class="navbar-content"><a href="{{ url('/problem_submission_board') }}">Submission</a></li>
             <li class="navbar-content"><a href="../problem/problem_discuss.html">Forum</a></li>
-            <li class="navbar-content"><a href="../problem/problem_editorial.html">Editorial <i class="fa fa-lock"></i></a></li>
-            <li class="navbar-content"><a href="../problem/problem_related_resourcs.html">Resources</a></li>
+            <li class="navbar-content"><a href="{{ url('/problem_editorial') }}">Editorial <i class="fa fa-lock"></i></a></li>
+            <li class="navbar-content"><a href="{{ url('/problem_related_resources') }}">Resources</a></li>
         </div>

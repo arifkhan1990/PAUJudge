@@ -4,7 +4,7 @@
             <div class="left-nav">
                 <a href="{{ url('/') }}" class="active"><img src="images\logo.gif" alt="" id="logo"><span id="title">PAU OJ</span></a>
                 <li><a href="{{ url('problems') }}">Problem</a></li>
-                <li><a href="../contest/contests.html">Contest</a></li>
+                <li><a href="{{ url('contest') }}">Contest</a></li>
                 <li><a href="">Rank</a></li>
                 <li><a href="">Learn</a></li>
                 <li><a href="">Blog</a></li>

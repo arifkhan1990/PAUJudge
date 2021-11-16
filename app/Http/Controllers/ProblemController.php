@@ -30,4 +30,19 @@ class ProblemController extends Controller
     {
         return view('pages.problem.submission');
     }
+
+    public function viewSubmission()
+    {
+        return view('pages.problem.submission_code_view');
+    }
+
+    public function viewProblemEditorial()
+    {
+        return view('pages.problem.problem_editorial');
+    }
+
+    public function viewProblemResources()
+    {
+        return view('pages.problem.problem_resources');
+    }
 }

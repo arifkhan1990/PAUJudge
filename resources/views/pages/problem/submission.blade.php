@@ -52,7 +52,7 @@
                             <td class="small">10.0</td>
                             <td class="small">0.000</td>
                             <td class="center">1 Year ago</td>
-                            <td class="center"><a href="../problem/solution_view_page.html" target="_blank" style="color: #2e2eb8;">View Solution</a></td>
+                            <td class="center"><a href="{{ url('/view_submission') }}" target="_blank" style="color: #2e2eb8;">View Solution</a></td>
                         </tr>
                         <tr class="impar">
                             <td class="id" style="color: firebrick;">Worng Answer</td>
@@ -61,7 +61,7 @@
                             <td class="small">2.0</td>
                             <td class="small">0.000</td>
                             <td class="center">1.5 Year ago</td>
-                            <td class="center"><a href="../problem/solution_view_page.html" target="_blank" style="color: #2e2eb8;">View Solution</a></td>
+                            <td class="center"><a href="{{ url('/view_submission') }}" target="_blank" style="color: #2e2eb8;">View Solution</a></td>
                         </tr>
                         <tr class="impar">
                             <td class="id" style="color: #1e7e34;">Acceptd</td>
@@ -70,7 +70,7 @@
                             <td class="small">10.0</td>
                             <td class="small">0.000</td>
                             <td class="center">1 Year ago</td>
-                            <td class="center"><a href="../problem/solution_view_page.html" target="_blank" style="color: #2e2eb8;">View Solution</a></td>
+                            <td class="center"><a href="{{ url('/view_submission') }}" target="_blank" style="color: #2e2eb8;">View Solution</a></td>
                         </tr>
                         </tbody>
                     </table>
